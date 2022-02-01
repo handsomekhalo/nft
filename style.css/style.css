@@ -4,48 +4,76 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 18px;
+html {
   background-color: hsl(217, 54%, 11%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.container {
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
   background-color: hsl(216, 50%, 16%);
-  border-radius: 5px;
- display:flex;
-margin-left: 250px;
-margin-right: 250px;
-
-justify-content:center;
-margin-top: 50px;
- 
+  margin-left: 350px;
+  margin-right: 350px;
   height: auto;
+  border-radius: 60px;
 }
 
 .content {
-
-}
-
-.main-pic {
-  margin-top: 20px;
-}
-
- img {
-  border-radius: 10px;
-  width: 100%;
-  padding: 30px;
-}
-
-
-.text-container {
+  background-color: hsl(216, 50%, 16%);
   display: flex;
   flex-direction: column;
-  width: 100%;
- 
+  padding: 50px;
 }
 
-.main-text{
-    color: hsl(0, 0%, 100%);
+.content img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
+.main-text {
+  margin-top: 10px;
+  color: hsl(0, 0%, 100%);
+}
 
+.sentence {
+  color: hsl(215, 32%, 27%);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.etherium {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+hr {
+  margin-top: 20px;
+  border-style: solid;
+  border-bottom: hsl(215, 32%, 27%);
+}
+
+.creation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-btm img {
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+padding: 5px;}
+
+.text {
+  margin-top: 20px;
 }
